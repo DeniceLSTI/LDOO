@@ -11,39 +11,38 @@ h1 {
 }
 h1 {
 	font-size:80px;
+	
 }
-h2,h3,h4{
-	font-size:30px;
+h2{
+	color:#000000;
+	font-family:Geneva;
+	font-size:40px;
 }
-p{
-	color:#999999;
-}
-p{
-	font-size:50px;
-	background:#000000;
-	margin:20px 30px;
-	border:10px double #CCCCCC;
-}
-
 body{
 	background:url(../denice/luna.jpg);
 }
-
-table{
+form{
+	margin:0 auto;
+	width:360px;
+	padding:23px;
 	background-color:white;
-	text-align:left;
-	border-collapse:collapse;
-	width:50%;
+	color:#333333;
+	font-size:20px;
+	border: ridge 14px #000000;
 }
-th,td{
-	border:solid 1px white;
-	padding:20px;
+.form-control{
+	border: solid 4px #CCCCCC;
+	font-size:20px;
+	padding: 10px;
 }
-thead{
-	background-color:#CCCCCC;
-	border-bottom:solid 5px #000000;
-	color: black;
+.form-control:focus{
+	border-color:#00CCCC;
 }
-tr:nth-child(even){
-	background-color:#ddd;
+input,texttarea{
+	width:320px;
 }
+button{
+	width:350px;
+	font-size:20px;
+}
+
