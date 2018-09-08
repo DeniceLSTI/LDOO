@@ -1,0 +1,49 @@
+body {
+	background:#000000;
+	color:#660066;
+}
+h1 {
+	color:#666666;
+	white:50%;
+	background:#999999;
+	margin:50px 50px;
+	border:20px double black;
+}
+h1 {
+	font-size:80px;
+}
+h2,h3,h4{
+	font-size:30px;
+}
+p{
+	color:#999999;
+}
+p{
+	font-size:50px;
+	background:#000000;
+	margin:20px 30px;
+	border:10px double #CCCCCC;
+}
+
+body{
+	background:url(../denice/luna.jpg);
+}
+
+table{
+	background-color:white;
+	text-align:left;
+	border-collapse:collapse;
+	width:50%;
+}
+th,td{
+	border:solid 1px white;
+	padding:20px;
+}
+thead{
+	background-color:#CCCCCC;
+	border-bottom:solid 5px #000000;
+	color: black;
+}
+tr:nth-child(even){
+	background-color:#ddd;
+}
